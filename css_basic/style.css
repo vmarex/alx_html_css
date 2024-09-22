@@ -1,0 +1,38 @@
+/* Ensure body is a flexible container with a column layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures body takes full viewport height */
+    margin: 0;
+  }
+  
+  /* Main container to be a flexible row with automatic height and width */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    width: 100%;
+  }
+  
+  /* Article occupies 2/3 of the width */
+  article {
+    flex: 2;
+    overflow-y: auto; /* Allows scrolling in the article */
+    padding: 20px;
+  }
+  
+  /* Aside occupies 1/3 of the width */
+  aside {
+    flex: 1;
+    overflow-y: auto; /* Allows scrolling in the aside */
+    padding: 20px;
+  }
+  
+  /* Ensure header and footer stay full width */
+  header, footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+  
