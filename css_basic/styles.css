@@ -1,0 +1,91 @@
+/* General styling */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the nav items horizontally */
+  align-items: center;     /* Center the nav items vertically */
+}
+
+header li {
+  margin-right: 20px;
+}
+
+header a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 30px;  /* Make the logo larger */
+  padding-right: 10px;
+}
+
+/* Article content styling */
+article {
+  padding: 20px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+article h2 {
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+article p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Links styling */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header li {
+    margin-bottom: 10px;
+  }
+
+  article {
+    margin: 10px;
+    padding: 15px;
+  }
+}
