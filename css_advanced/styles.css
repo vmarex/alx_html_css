@@ -2,6 +2,7 @@
     background-image: url('Object.png');
     /* background-position: center; */
     background-size: cover;
+    height: 1050px;
 }
 
 /* Use Flexbox for the nav list */
@@ -91,6 +92,7 @@ justify-content: center;
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 32px;
+    text-align:center;
     
   }
 
@@ -100,4 +102,22 @@ justify-content: center;
             border-radius: 50%;          /* Makes the image circular */
             object-fit: cover;           /* Ensures the image covers the box without distortion */
             border: 2px solid #4CAF50;  
+  }
+  .sec2-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color:#C271FF;
+    height: 392px;
+
+  }
+  .blockdiv{
+    text-align: left;
+    padding-left:20px;
+  }
+
+  blockquote{
+    display: inline;
   }
