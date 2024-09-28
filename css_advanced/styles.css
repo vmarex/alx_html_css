@@ -55,3 +55,34 @@ justify-content: center;
     padding-right:30px;
     color: white;
   }
+  .RegButton{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-top: 30px;
+    
+  }
+  
+  .button1{
+    background-color:#C271FF;
+    font: Source Sans Pro;
+    color: white;
+    text-align:center;
+    Height: 44px;
+    Width: 162px;
+    border-Radius: 22px;
+    border: none;
+  }
+  .SecText{
+    text-align: center;
+    font-size: 32px;
+    color:white;
+    Line Height: 40.22px;
+    font-weight: 300;
+  }
+
+  .secimages{
+    display:flex;
+    flex-direction:row;
+    
+  }
