@@ -1,0 +1,57 @@
+.background{
+    background-image: url('Object.png');
+    /* background-position: center; */
+    background-size: cover;
+}
+
+/* Use Flexbox for the nav list */
+.nav-list {
+    display: flex;            /* Apply Flexbox to the list */
+    list-style: none;          /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end; /* Distribute nav items evenly */
+    align-items: center;
+  }
+  /* Style the links */
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+   
+  .logo{
+    padding-top: 30px;
+  }
+ 
+  .first-section{
+    margin-top: 130px;
+  }
+
+  .school-flex{
+    display: flex;
+    flex-direction: column;       /* Items are arranged in a row (default) */
+    /*justify-content: space-around; /* Distributes items evenly with space around them */
+    align-items: center; 
+    flex: wrap;
+    justify-content: center;        /* Center the item horizontally */
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    
+   
+
+  }
+  .span-flex{
+display:flex;
+flex-direction: row;
+justify-content: center;
+
+  }
+
+  .spanflex1{
+    padding-left: 30px;
+    padding-right:30px;
+    color: white;
+  }

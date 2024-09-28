@@ -1,0 +1,9 @@
+.nav-bar{
+padding:10px;
+background-color: aqua;
+}
+
+.nav-list{
+display:flex;
+justify-content: flex-end;
+}
