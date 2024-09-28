@@ -4,7 +4,10 @@
     background-size: cover;
     height: 1050px;
 }
-
+.headerdiv{
+    display:flex;
+    flex-direction: row;
+}
 /* Use Flexbox for the nav list */
 .nav-list {
     display: flex;            /* Apply Flexbox to the list */
@@ -13,6 +16,7 @@
     padding: 0;
     justify-content: flex-end; /* Distribute nav items evenly */
     align-items: center;
+    font-weight:700px;
   }
   /* Style the links */
 .nav-list a {
@@ -23,7 +27,7 @@
   }
    
   .logo{
-    padding-top: 30px;
+   
   }
  
   .first-section{
@@ -121,3 +125,5 @@ justify-content: center;
   blockquote{
     display: inline;
   }
+
+  
