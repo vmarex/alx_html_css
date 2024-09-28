@@ -1,13 +1,11 @@
 .background{
+
     background-image: url('Object.png');
     /* background-position: center; */
     background-size: cover;
-    height: 1050px;
+    height: 1043px;
 }
-.headerdiv{
-    display:flex;
-    flex-direction: row;
-}
+
 /* Use Flexbox for the nav list */
 .nav-list {
     display: flex;            /* Apply Flexbox to the list */
@@ -15,8 +13,13 @@
     margin: 0;
     padding: 0;
     justify-content: flex-end; /* Distribute nav items evenly */
-    align-items: center;
     font-weight:700px;
+  }
+
+  .headerdiv{
+    padding-top: 35.02px;
+    
+    
   }
   /* Style the links */
 .nav-list a {
@@ -27,7 +30,7 @@
   }
    
   .logo{
-   
+    margin-right: auto;
   }
  
   .first-section{
