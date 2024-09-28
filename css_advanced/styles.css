@@ -72,6 +72,7 @@ justify-content: center;
     Width: 162px;
     border-Radius: 22px;
     border: none;
+    
   }
   .SecText{
     text-align: center;
@@ -79,10 +80,24 @@ justify-content: center;
     color:white;
     Line Height: 40.22px;
     font-weight: 300;
+    padding-top: 100px;
   }
 
   .secimages{
     display:flex;
     flex-direction:row;
+    justify-content: space-between;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 32px;
     
+  }
+
+  .avata{
+    width: 150px;                /* Width of the avatar */
+            height: 150px;               /* Height of the avatar (equal to width for a circle) */
+            border-radius: 50%;          /* Makes the image circular */
+            object-fit: cover;           /* Ensures the image covers the box without distortion */
+            border: 2px solid #4CAF50;  
   }
