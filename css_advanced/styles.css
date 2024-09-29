@@ -129,4 +129,51 @@ justify-content: center;
     display: inline;
   }
 
-  
+  .sec3-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 106px;
+    padding-right: 106px;
+    
+  }
+  .sec3{
+    
+   
+    padding-left: 106px;
+    padding-right: 106px;
+
+  }
+
+  .popularheading{
+    padding-top: 50px;
+    text-align: center;
+  }
+  .sec3-flex p{
+    text-align: left;
+  }
+  .sec3-flex-1, .sec3-flex-2, .sec3-flex-3, .sec3-flex-4{
+    padding: 10px;
+    
+
+  }
+  .stars{
+    background-color: #4CAF50;
+  }
+  .sec4-flex{
+    
+    
+  }
+  .sec4div-flex{
+display:flex;
+flex-direction: row;
+align-items: center;
+padding-left: 106px;
+padding-right: 106px;
+background-color:#071629;
+;
+
+  }
+  .sec4heading{
+    text-align: center;
+  }
