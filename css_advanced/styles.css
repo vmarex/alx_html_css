@@ -171,9 +171,23 @@ align-items: center;
 padding-left: 106px;
 padding-right: 106px;
 background-color:#071629;
+color:white;
+height: 502px;
+flex-wrap: wrap;
+
 ;
 
   }
-  .sec4heading{
+  .sec4heading, .sec4-flex-2, .sec4-flex-3, .sec4-flex-4, .sec4-flex-5 {
     text-align: center;
+    width:100%;
+    
+    
+  }
+  .sec4heading{
+    width: 100%;
+  }
+
+  .sec4-flex-2, .sec4-flex-3, .sec4-flex-4, .sec4-flex-5{
+    flex-basis: 25%;
   }
