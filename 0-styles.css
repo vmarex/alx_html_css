@@ -4,3 +4,14 @@
     background-image: url(images/headphones_hero_1.jpg);
     text-align: center;
 }
+.nav-list {
+    display: flex;            /* Apply Flexbox to the list */
+    list-style: none;          /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end; /* Distribute nav items evenly */
+   gap: 20px;
+   padding-right: 20px;
+   height: 15px;
+   width: 255px;
+  }
